@@ -5,7 +5,7 @@ const io = new Server({
   cors: {
     origin: [
       "https://localhost:5173",
-      "https://"
+      "https://socket-deno.netlify.app/"
     ],
     credentials: true,
     methods: ["GET", "POST"],
